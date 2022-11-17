@@ -4,189 +4,260 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>BBrands Agency</title>
 
-  <title>model</title>
+  <link rel="stylesheet" href="src/css/style.css">
 
-  <link rel="" href="">
+  <link rel="icon" href="public/img/icons/favicon.ico" />
+  
 </head>
 <body>
-  <header>
-    <a href="/">
-      <img src="" alt="">
-    </a>
-    
-    <button>
-      <span></span>
-    </button>
+  <header class="header">
 
-    <nav>
-      <ul>
-        <li><a href="works.html">Works</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="team.html">Team</a></li>
-      </ul>
-      <ul>
-        <li><a href="#"><img src="assets/icons/behance.svg" alt="Icone Beahance"></a></li>
-        <li><a href="#"><img src="assets/icons/dribbble.svg" alt="Icone dribble"></a></li>
-        <li><a href="#"><img src="assets/icons/twitter.svg" alt="Icone Twitter"></a></li>
-      </ul>
-      <ul>
-        <li><a href="terms-conditions.html">Terms &amp; conditions</a></li>
-        <li><a href="privacy-policy.html">Privacy policy</a></li>
-      </ul>
-    </nav>
+    <div class="header__start">
+      <a href="/">
+        <img class="header__logo" src="assets/img/icons/logo-black.svg" alt="Logo Bbrands Agency">
+      </a>
+    </div>
+
+    <div class="header__end">
+      <button class="header__menu-btn menu-btn">
+        <span class="menu-btn__bar"></span>
+      </button>
+
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link" href="works.html">Works</a></li>
+          <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+          <li class="menu__item"><a class="menu__link" href="team.html">Team</a></li>
+        </ul>
+        <ul class="menu__social-network">
+          <li><a href="#"><img src="assets/img/icons/behance.svg" alt="Icon Behance"></a></li>
+          <li><a href="#"><img src="assets/img/icons/dribbble.svg" alt="Icon Dribbble"></a></li>
+          <li><a href="#"><img src="assets/img/icons/twitter.svg"></a></li>
+        </ul>
+        <ul class="menu__secondaire">
+          <li><a href="terms-conditions.html">Terms & conditions</a></li>
+          <li><a href="privacy-policy.httml">Privacy Policy</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
   </header>
 
   <main>
-    
-    <h1>Building. Brands.</h1>
-    <p>We love to explore new ways to engage with brands and reach new levels of creative outlets through design.</p>
-    <a href="mailto:hello@bbrands.co.uk">
-      <img src="assets/icons/send.svg" alt="Icone envoyer">
-      hello@bbrands.co.uk
-    </a>
 
-    <section>
-      <header>      
-        <h2>Latest work</h2>
-        <p>Here are some exciting new projects we’ve been working on</p>
-      </header>
+    <div class="hero">
+      <h1 class="hero__title">Building. Brands.</h1>
+      <h2 class="hero__intro">We love to explore new ways to engage with brands and reach new levels of creative outlets through design.</h2>
+      <a class="hero__mail" href="mailto:hello@bbrands.co.uk">
+        <img class="hero__mail-icon" src="public/img/icons/send.svg" alt="Icone envoyer"> hello@bbrands.co.uk
+      </a>
+    </div>
 
-        <article>
-          <a href="work1.html">
-          <img src="assets/img/work/work1.webp" alt="Work 1">
-            </a>
-            <p><a href="works/branding.html">Branding</a>
-           </p>
-            <h2><a href="work1.html">Vrai Corporate Branding and Packaging</a>
-            </h2>
-          </img>
-        </article>
+    <section class="section">
+      <p class="section__type">Latest work</p>
+      <h2 class="section__title">Here are some exciting new projects we’ve been working on</h2>
 
-        <footer>
-          <a href="works.html">See all</a>
-        </footer>
+      <article class="work">
+        <a class="work__link" href="work.html">
+          <img class="work__img" src="public/img/work/work1.webp" alt="Work 1">
+        </a>
+        <p class="work__category"><a class="work__link work__link--category" href="branding.html">Branding</a></p>
+        <h2 class="work__title"><a class="work__link" href="work.html">Vrai Corporate Branding and Packaging</a></h2>
+      </article>
+
+      <article class="work">
+        <a class="work__link" href="work.html">
+          <img class="work__img" src="public/img/work/work2.webp" alt="Work 1">
+        </a>
+        <p class="work__category"><a class="work__link work__link--category" href="branding.html">Branding</a></p>
+        <h2 class="work__title"><a class="work__link" href="work.html">Vrai Corporate Branding and Packaging</a></h2>
+      </article>
+
+      <article class="work">
+        <a class="work__link" href="work.html">
+          <img class="work__img" src="public/img/work/work3.webp" alt="Work 1">
+        </a>
+        <p class="work__category"><a class="work__link work__link--category" href="branding.html">Branding</a></p>
+        <h2 class="work__title"><a class="work__link" href="work.html">Vrai Corporate Branding and Packaging</a></h2>
+      </article>
+
+      <article class="work">
+        <a class="work__link" href="work.html">
+          <img class="work__img" src="public/img/work/work4.webp" alt="Work 1">
+        </a>
+        <p class="work__category"><a class="work__link work__link--category" href="branding.html">Branding</a></p>
+        <h2 class="work__title"><a class="work__link" href="work.html">Vrai Corporate Branding and Packaging</a></h2>
+      </article>
+
+      <p class="section__btn">
+        <a class="btn" href="works.html">See all</a>
+      </p>
+
     </section>
 
-    <section>
+    <section class="section">
+
       <h2>Growing all around the globe.</h2>
       <ul>
-        <li><span>56</span> countries</li>
-        <li><span>136</span> clients</li>
-        <li><span>12</span> offices</li>
+        <li><span>54</span> <span>Countries</span></li>
+        <li><span>136</span> <span>Clients</span></li>
+        <li><span>12</span> <span>Officies</span></li>
       </ul>
-      <p><span>Latest</span> Nigeria office is now operational.</p>
+      <p><span>latest</span> Nigeria office is now operational.</p>
       <a href="#">See all branches</a>
+
     </section>
 
-    <section>
-      <header>
-        <h2>Meet the team</h2>
-        <p>Here are some exciting new projects we’ve been working on</p>
-      </header>
+    <section class="section">
+      <p class="section__type">Meet the team</p>
+      <h2 class="section__title">Here are some exciting new projects we’ve been working on</h2>
 
-      <ul>
-        <li>
-          <img src="assets/img/team/team1.webp" alt="Morgane Flaherty">
-          <h4>Morgane Flaherty</h4>
-          <p>UX designer @Google</p>
-          <ul>
-            <li>
-              <a href="#" aria-label="Behance">
-                <img src="assets/icons/behance.svg" alt="Icone behance">
-              </a>
-            </li>
-            <li>
-              <a href="#" aria-label="Dribbble">
-                <img src="assets/icons/dribbble.svg" alt="Icone dribbble">
-              </a>
-            </li>
-            <li>
-              <a href="#" aria-label="Twitter">
-                <img src="assets/icons/twitter.svg" alt="Icone twitter">
-              </a>
-            </li>
+      <ul class="team list-unstyled">
+        <li class="team__item">
+          <img src="public/img/team/team1.webp" alt="Morgane Flaherty">
+          <h5 class="team__name">Morgane Flaherty</h5>
+          <p class="team__profile">UX Designer @Google</p>
+          <ul class="team__socials">
+            <li><a href="#"><img src="public/img/icons/behance.svg" alt="Icon Behance"></a></li>
+            <li><a href="#"><img src="public/img/icons/dribbble.svg" alt="Icon Dribbble"></a></li>
+            <li><a href="#"><img src="public/img/icons/twitter.svg" alt="Icon twitter"></a></li>
+          </ul>
+        </li>
+        <li class="team__item">
+          <img src="public/img/team/team2.webp" alt="Morgane Flaherty">
+          <h5 class="team__name">Morgane Flaherty</h5>
+          <p class="team__profile">UX Designer @Google</p>
+          <ul class="team__socials">
+            <li><a href="#"><img src="public/img/icons/behance.svg" alt="Icon Behance"></a></li>
+            <li><a href="#"><img src="public/img/icons/dribbble.svg" alt="Icon Dribbble"></a></li>
+            <li><a href="#"><img src="public/img/icons/twitter.svg" alt="Icon twitter"></a></li>
+          </ul>
+        </li>
+        <li class="team__item">
+          <img src="public/img/team/team3.webp" alt="Morgane Flaherty">
+          <h5 class="team__name">Morgane Flaherty</h5>
+          <p class="team__profile">UX Designer @Google</p>
+          <ul class="team__socials">
+            <li><a href="#"><img src="public/img/icons/behance.svg" alt="Icon Behance"></a></li>
+            <li><a href="#"><img src="public/img/icons/dribbble.svg" alt="Icon Dribbble"></a></li>
+            <li><a href="#"><img src="public/img/icons/twitter.svg" alt="Icon twitter"></a></li>
+          </ul>
+        </li>
+        <li class="team__item">
+          <img src="public/img/team/team4.webp" alt="Morgane Flaherty">
+          <h5 class="team__name">Morgane Flaherty</h5>
+          <p class="team__profile">UX Designer @Google</p>
+          <ul class="team__socials">
+            <li><a href="#"><img src="public/img/icons/behance.svg" alt="Icon Behance"></a></li>
+            <li><a href="#"><img src="public/img/icons/dribbble.svg" alt="Icon Dribbble"></a></li>
+            <li><a href="#"><img src="public/img/icons/twitter.svg" alt="Icon twitter"></a></li>
+          </ul>
+        </li>
+        <li class="team__item">
+          <img src="public/img/team/team5.webp" alt="Morgane Flaherty">
+          <h5 class="team__name">Morgane Flaherty</h5>
+          <p class="team__profile">UX Designer @Google</p>
+          <ul class="team__socials">
+            <li><a href="#"><img src="public/img/icons/behance.svg" alt="Icon Behance"></a></li>
+            <li><a href="#"><img src="public/img/icons/dribbble.svg" alt="Icon Dribbble"></a></li>
+            <li><a href="#"><img src="public/img/icons/twitter.svg" alt="Icon twitter"></a></li>
+          </ul>
+        </li>
+        <li class="team__item">
+          <img src="public/img/team/team6.webp" alt="Morgane Flaherty">
+          <h5 class="team__name">Morgane Flaherty</h5>
+          <p class="team__profile">UX Designer @Google</p>
+          <ul class="team__socials">
+            <li><a href="#"><img src="public/img/icons/behance.svg" alt="Icon Behance"></a></li>
+            <li><a href="#"><img src="public/img/icons/dribbble.svg" alt="Icon Dribbble"></a></li>
+            <li><a href="#"><img src="public/img/icons/twitter.svg" alt="Icon twitter"></a></li>
+          </ul>
+        </li>
+        <li class="team__item">
+          <img src="public/img/team/team7.webp" alt="Morgane Flaherty">
+          <h5 class="team__name">Morgane Flaherty</h5>
+          <p class="team__profile">UX Designer @Google</p>
+          <ul class="team__socials">
+            <li><a href="#"><img src="public/img/icons/behance.svg" alt="Icon Behance"></a></li>
+            <li><a href="#"><img src="public/img/icons/dribbble.svg" alt="Icon Dribbble"></a></li>
+            <li><a href="#"><img src="public/img/icons/twitter.svg" alt="Icon twitter"></a></li>
+          </ul>
+        </li>
+        <li class="team__item">
+          <img src="public/img/team/team8.webp" alt="Morgane Flaherty">
+          <h5 class="team__name">Morgane Flaherty</h5>
+          <p class="team__profile">UX Designer @Google</p>
+          <ul class="team__socials">
+            <li><a href="#"><img src="public/img/icons/behance.svg" alt="Icon Behance"></a></li>
+            <li><a href="#"><img src="public/img/icons/dribbble.svg" alt="Icon Dribbble"></a></li>
+            <li><a href="#"><img src="public/img/icons/twitter.svg" alt="Icon twitter"></a></li>
           </ul>
         </li>
       </ul>
-      <footer>
-        <a href="Team.html">See all</a>
-      </footer>
+      <p class="section__btn"><a class="btn" href="team.html">See all</a></p>
     </section>
-
-
-    <section>
+    
+    <section class="section">
       <h2>Upcoming events</h2>
-
       <article>
-        <a href="#">
-        <p>23 Feb</p>
-        <h3>Empowering industries</h3>
-        <p>A deep dive into our methods</p>
-        <img src="assets/icons/black-right-arrow.svg" alt="Icone de fleche">
+        <a href="event.html">
+          <p>23 Feb</p>
+          <h3>Empowering industries</h3>
+          <p>A deep dive into our methods</p>
+          <img src="public/img/icons/black-right-arrow.svg" alt="Icone de flèche">
         </a>
       </article>
-
       <article>
-        <a href="#">
-        <p>23 Feb</p>
-        <h3>Empowering industries</h3>
-        <p>A deep dive into our methods</p>
-        <img src="assets/icons/black-right-arrow.svg" alt="Icone de fleche">
+        <a href="event.html">
+          <p>23 Feb</p>
+          <h3>Summer Event</h3>
+          <p>A fresh new start for 2021</p>
+          <img src="public/img/icons/black-right-arrow.svg" alt="Icone de flèche">
         </a>
       </article>
-
       <article>
-        <a href="#">
-        <p>23 Feb</p>
-        <h3>Empowering industries</h3>
-        <p>A deep dive into our methods</p>
-        <img src="assets/icons/black-right-arrow.svg" alt="Icone de fleche">
+        <a href="event.html">
+          <p>23 Feb</p>
+          <h3>Empowering industries</h3>
+          <p>A deep dive into our methods</p>
+          <img src="public/img/icons/black-right-arrow.svg" alt="Icone de flèche">
         </a>
       </article>
-
     </section>
-
-    <section>
-      <header>
-        <h2>Meet the team</h2>
-        <p>Here are some exciting new projects we’ve been working on</p>
-      </header>
-      <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure</p>
-
-      <form action="#">
+    
+    <section class="section section--color">
+      <p class="section__type">Contact</p>
+      <h2 class="section__title section__title--big">Let’s get in touch</h2>
+      <p class="section__text">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure</p>
+      <form class="section__form form" action="#">
         <div>
-        <label for="first-name">first name</label>
-        <input type="text" name="first-mane" id="first-name">
+          <label class="form__label" for="first-name">First name</label>
+          <input class="form__field" type="text" name="first-name" id="first-name">
         </div>
-
         <div>
-          <label for="last-name">Last name</label>
-          <input type="text" name="last-name" id="last-name">
+          <label class="form__label" for="last-name">Last name</label>
+          <input class="form__field" type="text" name="last-name" id="last-name">
         </div>
-
         <div>
-          <label for="message">message</label>
-          <textarea type="text" name="message" id="message"></textarea>
+          <label class="form__label" for="message">Message</label>
+          <textarea class="form__field" id="message" name="message" rows="5"></textarea>
         </div>
-
-        <button type="submit">send</button>
-
+        <button class="btn btn--dark" type="submit">Send</button>
+      </form>
     </section>
-
-    <section>
-    </section>
-
-
   </main>
 
-  <footer>
+  <footer class="footer">
     <a href="/">
-      <img src="assets/icons/logo-white.svg" alt="Logo Bbrands agency">
+      <img class="footer__logo" src="public/img/icons/logo-white.svg" alt="Logo Bbrands Agency">
     </a>
-    <p>We love to explore new ways to engage with brands and reach new levels of creative outlets through design.</p>
-    <p>&copy; 2020 Bbrands.</p>
+    <p class="footer__text">We love to explore new ways to engage with brands and reach new levels of creative outlets through design.</p>
+    <p class="footer__copyright">&copy; 2020 BBrands.</p>
   </footer>
 
 </body>

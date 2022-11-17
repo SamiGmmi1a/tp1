@@ -1,0 +1,30 @@
+:root {
+    /* Color styles */
+    --primary: rgba(255, 200, 90, 1);
+    --black: rgba(0, 0, 0, 1);
+    --gray-800: rgba(37, 37, 37, 1);
+    --gray-600: rgba(123, 123, 123, 1);
+    --gray-200: rgba(247, 247, 247, 1);
+    --white: rgba(255, 255, 255, 1);
+
+  
+    /* Text-size styles */
+    /* base size: mobile--l-light (16px) */
+    --mobile--42px--light: 2.62rem;
+    --mobile--35px--semibold: 2.19rem;
+    --mobile--xl-medium: 1.5rem;
+    --mobile--xl-semibold: 1.38rem;
+    --mobile--l-semibold: 1.06rem;
+    --mobile--l-light: 1rem;
+    --mobile--l-regular: 1rem;
+    --mobile--md-paragraph: 0.88rem;
+    --mobile--md-medium: 0.88rem;
+    --mobile--md-regular: 0.88rem;
+    --mobile--s-long: 0.75rem;
+    --mobile--s-regular: 0.75rem;
+    --mobile--xs-medium: 0.75rem;
+    --mobile--xxs-regular: 0.62rem;
+
+    --serif: 'Playfair Display', serif;
+    --sans-serif: 'Inter', sans-serif;
+    }

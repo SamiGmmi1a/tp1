@@ -1,0 +1,32 @@
+body {
+    font-family: var(--sans-serif);
+    font-size: var(--mobile-md);
+    line-height: 1.6;
+    background-color: var(--white);
+  }
+  
+  h1 {
+    font-family: var(--serif);
+    font-size: var(--mobile-xxxxl);
+  }
+  
+  h2 {
+    font-size: var(--mobile-xxl);
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: var(--links);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Pour rendre les images fluides */
+  img {
+    max-width: 100%;
+  }
