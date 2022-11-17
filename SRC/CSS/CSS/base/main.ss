@@ -1,0 +1,22 @@
+body {
+    font-family: var(--font-sans-serf);
+    font-size: var(--text-md).
+    line-height : 1.6;
+    background-color: var(--gray-white);
+}
+
+h1,h2{
+    font-family: var(--font-mono);
+}
+
+h1 {
+    font-size: var(--title-xxl);
+}
+
+h2{
+    font-size: var(--title-xxl);
+}
+
+h3{
+    line-height: 1.4;
+}
